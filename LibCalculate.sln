@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibCalculate", "LibCalculate\LibCalculate.csproj", "{460B2CC5-4EA1-47D2-92CE-0A7E3A8FB841}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{460B2CC5-4EA1-47D2-92CE-0A7E3A8FB841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{460B2CC5-4EA1-47D2-92CE-0A7E3A8FB841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{460B2CC5-4EA1-47D2-92CE-0A7E3A8FB841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{460B2CC5-4EA1-47D2-92CE-0A7E3A8FB841}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B6C7B03-2B70-423A-A071-C3EA817B0498}
+	EndGlobalSection
+EndGlobal
