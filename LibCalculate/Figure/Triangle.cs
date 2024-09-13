@@ -17,4 +17,24 @@ public class Triangle : IShape
         SideB = sideB;
         SideC = sideC;
     }
+
+    public double Area()
+    {
+        double poluPerimeter = (SideA + SideB + SideC) / 2;
+        var square = Math.Sqrt(
+            poluPerimeter
+            * (poluPerimeter - SideA)
+            * (poluPerimeter - SideB)
+            * (poluPerimeter - SideC)
+        );
+
+        return square;
+    }
+
+    public bool IsRightTriangle()
+    {
+        return (SideA == Math.Sqrt(Math.Pow(SideB, 2) + Math.Pow(SideC, 2))
+               || SideB == Math.Sqrt(Math.Pow(SideA, 2) + Math.Pow(SideC, 2))
+               || SideC == Math.Sqrt(Math.Pow(SideA, 2) + Math.Pow(SideB, 2)));
+    }
 }
